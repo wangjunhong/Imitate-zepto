@@ -1,2 +1,2 @@
 # Imitate-zepto
-防zepto demo
+仿zepto demo
