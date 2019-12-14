@@ -11,7 +11,12 @@
 <script type="text/javascript" src="my-zepto.js"></script>	
 <script type="text/javascript">
 	var $p=$("p");
+	//原型拓展
+	$.fn.getNodeName=function(){
+		return this[0].nodeName;
+	}
 	$p.css("color","#0f0").text('this is aaa');
+	console.log($p.getNodeName());
 </script>
 </body>
 </html>
